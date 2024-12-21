@@ -1,0 +1,16 @@
+{
+  "name": "hono-editor-friendly-design",
+  "scripts": {
+    "gen-apps": "bun generate-apps.ts",
+    "dev:typed": "bun run --hot src/typed-app.ts",
+    "dev:untyped": "bun run --hot src/untyped-app.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,5 @@
+export { hcWithType as app1Hc } from './apps/app-1'
+export { hcWithType as app2Hc } from './apps/app-2'
+export { hcWithType as app3Hc } from './apps/app-3'
+export { hcWithType as app4Hc } from './apps/app-4'
+export { hcWithType as app5Hc } from './apps/app-5'
